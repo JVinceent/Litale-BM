@@ -1,0 +1,617 @@
+{
+  "task": "transcribe",
+  "language": "Tagalog",
+  "duration": 66.730688512,
+  "text": " Noong bata pa ako, nakatira kami sa Lipa, Batangas. Every Sunday, nagtitinda ako ng Sampagita. Sarap ng simbahan. Isang umaga, may binatang lumapit sa arlo. His name was Ben. Bumili siya ng isang kwintas ng Sampagita. Tapos bumalik siya the next Sunday. At the next Sunday ulit, sabi ko sa sarili ko, Ang dami naman niyang sampagita. Isang gabi, dumating si Ben sa bahay namin. May dala siyang gitara. Tinantahan niya ako ng harana sa ilalim ng bintana. Nahiya ako noon pero I was so happy. And after two years, ikinasal na kami sa parehong simbahan. Hanggang ngayon, every anniversary, binibigyan pa rin ako ni Lolo Ben ng sampagita. and that apple and that apple is how we fell in love",
+  "words": [
+    {
+      "word": "Noong",
+      "start": 1.36,
+      "end": 1.62
+    },
+    {
+      "word": "bata",
+      "start": 1.62,
+      "end": 1.96
+    },
+    {
+      "word": "pa",
+      "start": 1.96,
+      "end": 2.22
+    },
+    {
+      "word": "ako,",
+      "start": 2.22,
+      "end": 3.54
+    },
+    {
+      "word": "nakatira",
+      "start": 3.54,
+      "end": 3.92
+    },
+    {
+      "word": "kami",
+      "start": 3.92,
+      "end": 4.14
+    },
+    {
+      "word": "sa",
+      "start": 4.14,
+      "end": 4.32
+    },
+    {
+      "word": "Lipa,",
+      "start": 4.32,
+      "end": 4.7
+    },
+    {
+      "word": "Batangas.",
+      "start": 4.7,
+      "end": 5.54
+    },
+    {
+      "word": "Every",
+      "start": 6.3,
+      "end": 6.56
+    },
+    {
+      "word": "Sunday,",
+      "start": 6.56,
+      "end": 7.54
+    },
+    {
+      "word": "nagtitinda",
+      "start": 7.54,
+      "end": 8.1
+    },
+    {
+      "word": "ako",
+      "start": 8.1,
+      "end": 8.32
+    },
+    {
+      "word": "ng",
+      "start": 8.32,
+      "end": 8.52
+    },
+    {
+      "word": "Sampagita.",
+      "start": 8.52,
+      "end": 9.22
+    },
+    {
+      "word": "Sarap",
+      "start": 10.44,
+      "end": 10.84
+    },
+    {
+      "word": "ng",
+      "start": 10.84,
+      "end": 11
+    },
+    {
+      "word": "simbahan.",
+      "start": 11,
+      "end": 12.08
+    },
+    {
+      "word": "Isang",
+      "start": 12.86,
+      "end": 13.16
+    },
+    {
+      "word": "umaga,",
+      "start": 13.16,
+      "end": 15.02
+    },
+    {
+      "word": "may",
+      "start": 15.02,
+      "end": 15.68
+    },
+    {
+      "word": "binatang",
+      "start": 15.68,
+      "end": 16.18
+    },
+    {
+      "word": "lumapit",
+      "start": 16.18,
+      "end": 16.6
+    },
+    {
+      "word": "sa",
+      "start": 16.6,
+      "end": 16.8
+    },
+    {
+      "word": "arlo.",
+      "start": 16.8,
+      "end": 17.02
+    },
+    {
+      "word": "His",
+      "start": 18.1,
+      "end": 18.32
+    },
+    {
+      "word": "name",
+      "start": 18.32,
+      "end": 18.66
+    },
+    {
+      "word": "was",
+      "start": 18.66,
+      "end": 19
+    },
+    {
+      "word": "Ben.",
+      "start": 19,
+      "end": 19.84
+    },
+    {
+      "word": "Bumili",
+      "start": 20.18,
+      "end": 20.54
+    },
+    {
+      "word": "siya",
+      "start": 20.54,
+      "end": 20.78
+    },
+    {
+      "word": "ng",
+      "start": 20.78,
+      "end": 20.94
+    },
+    {
+      "word": "isang",
+      "start": 20.94,
+      "end": 21.24
+    },
+    {
+      "word": "kwintas",
+      "start": 21.24,
+      "end": 21.72
+    },
+    {
+      "word": "ng",
+      "start": 21.72,
+      "end": 21.9
+    },
+    {
+      "word": "Sampagita.",
+      "start": 21.9,
+      "end": 22.66
+    },
+    {
+      "word": "Tapos",
+      "start": 23.58,
+      "end": 23.84
+    },
+    {
+      "word": "bumalik",
+      "start": 23.84,
+      "end": 24.3
+    },
+    {
+      "word": "siya",
+      "start": 24.3,
+      "end": 24.58
+    },
+    {
+      "word": "the",
+      "start": 24.58,
+      "end": 25.12
+    },
+    {
+      "word": "next",
+      "start": 25.12,
+      "end": 25.36
+    },
+    {
+      "word": "Sunday.",
+      "start": 25.36,
+      "end": 25.76
+    },
+    {
+      "word": "At",
+      "start": 26.78,
+      "end": 26.92
+    },
+    {
+      "word": "the",
+      "start": 26.92,
+      "end": 27
+    },
+    {
+      "word": "next",
+      "start": 27,
+      "end": 27.36
+    },
+    {
+      "word": "Sunday",
+      "start": 27.36,
+      "end": 27.74
+    },
+    {
+      "word": "ulit,",
+      "start": 27.74,
+      "end": 28.18
+    },
+    {
+      "word": "sabi",
+      "start": 28.18,
+      "end": 28.46
+    },
+    {
+      "word": "ko",
+      "start": 28.46,
+      "end": 28.56
+    },
+    {
+      "word": "sa",
+      "start": 28.56,
+      "end": 28.7
+    },
+    {
+      "word": "sarili",
+      "start": 28.7,
+      "end": 29.06
+    },
+    {
+      "word": "ko,",
+      "start": 29.06,
+      "end": 29.5
+    },
+    {
+      "word": "Ang",
+      "start": 30,
+      "end": 30.2
+    },
+    {
+      "word": "dami",
+      "start": 30.2,
+      "end": 30.48
+    },
+    {
+      "word": "naman",
+      "start": 30.48,
+      "end": 30.7
+    },
+    {
+      "word": "niyang",
+      "start": 30.7,
+      "end": 31.04
+    },
+    {
+      "word": "sampagita.",
+      "start": 31.04,
+      "end": 32.16
+    },
+    {
+      "word": "Isang",
+      "start": 33.02,
+      "end": 33.34
+    },
+    {
+      "word": "gabi,",
+      "start": 33.34,
+      "end": 33.78
+    },
+    {
+      "word": "dumating",
+      "start": 33.78,
+      "end": 34.66
+    },
+    {
+      "word": "si",
+      "start": 34.66,
+      "end": 34.88
+    },
+    {
+      "word": "Ben",
+      "start": 34.88,
+      "end": 35.14
+    },
+    {
+      "word": "sa",
+      "start": 35.14,
+      "end": 35.72
+    },
+    {
+      "word": "bahay",
+      "start": 35.72,
+      "end": 36.1
+    },
+    {
+      "word": "namin.",
+      "start": 36.1,
+      "end": 36.48
+    },
+    {
+      "word": "May",
+      "start": 37.26,
+      "end": 37.42
+    },
+    {
+      "word": "dala",
+      "start": 37.42,
+      "end": 37.58
+    },
+    {
+      "word": "siyang",
+      "start": 37.58,
+      "end": 37.82
+    },
+    {
+      "word": "gitara.",
+      "start": 37.82,
+      "end": 38.48
+    },
+    {
+      "word": "Tinantahan",
+      "start": 39.2,
+      "end": 39.82
+    },
+    {
+      "word": "niya",
+      "start": 39.82,
+      "end": 40.04
+    },
+    {
+      "word": "ako",
+      "start": 40.04,
+      "end": 40.2
+    },
+    {
+      "word": "ng",
+      "start": 40.2,
+      "end": 40.42
+    },
+    {
+      "word": "harana",
+      "start": 40.42,
+      "end": 40.92
+    },
+    {
+      "word": "sa",
+      "start": 40.92,
+      "end": 41.68
+    },
+    {
+      "word": "ilalim",
+      "start": 41.68,
+      "end": 43.08
+    },
+    {
+      "word": "ng",
+      "start": 43.08,
+      "end": 43.26
+    },
+    {
+      "word": "bintana.",
+      "start": 43.26,
+      "end": 44.28
+    },
+    {
+      "word": "Nahiya",
+      "start": 44.72,
+      "end": 45.06
+    },
+    {
+      "word": "ako",
+      "start": 45.06,
+      "end": 45.34
+    },
+    {
+      "word": "noon",
+      "start": 45.34,
+      "end": 45.58
+    },
+    {
+      "word": "pero",
+      "start": 45.58,
+      "end": 45.86
+    },
+    {
+      "word": "I",
+      "start": 45.86,
+      "end": 46.82
+    },
+    {
+      "word": "was",
+      "start": 46.82,
+      "end": 47.08
+    },
+    {
+      "word": "so",
+      "start": 47.08,
+      "end": 47.44
+    },
+    {
+      "word": "happy.",
+      "start": 47.44,
+      "end": 48.04
+    },
+    {
+      "word": "And",
+      "start": 49.12,
+      "end": 49.26
+    },
+    {
+      "word": "after",
+      "start": 49.26,
+      "end": 49.56
+    },
+    {
+      "word": "two",
+      "start": 49.56,
+      "end": 49.82
+    },
+    {
+      "word": "years,",
+      "start": 49.82,
+      "end": 50.28
+    },
+    {
+      "word": "ikinasal",
+      "start": 50.28,
+      "end": 51.26
+    },
+    {
+      "word": "na",
+      "start": 51.26,
+      "end": 51.36
+    },
+    {
+      "word": "kami",
+      "start": 51.36,
+      "end": 51.58
+    },
+    {
+      "word": "sa",
+      "start": 51.58,
+      "end": 52.02
+    },
+    {
+      "word": "parehong",
+      "start": 52.02,
+      "end": 52.44
+    },
+    {
+      "word": "simbahan.",
+      "start": 52.44,
+      "end": 53.18
+    },
+    {
+      "word": "Hanggang",
+      "start": 53.8,
+      "end": 54.02
+    },
+    {
+      "word": "ngayon,",
+      "start": 54.02,
+      "end": 54.76
+    },
+    {
+      "word": "every",
+      "start": 54.76,
+      "end": 54.9
+    },
+    {
+      "word": "anniversary,",
+      "start": 54.9,
+      "end": 55.66
+    },
+    {
+      "word": "binibigyan",
+      "start": 55.66,
+      "end": 56.12
+    },
+    {
+      "word": "pa",
+      "start": 56.12,
+      "end": 56.3
+    },
+    {
+      "word": "rin",
+      "start": 56.3,
+      "end": 56.4
+    },
+    {
+      "word": "ako",
+      "start": 56.4,
+      "end": 56.68
+    },
+    {
+      "word": "ni",
+      "start": 56.68,
+      "end": 56.96
+    },
+    {
+      "word": "Lolo",
+      "start": 56.96,
+      "end": 57.24
+    },
+    {
+      "word": "Ben",
+      "start": 57.24,
+      "end": 57.5
+    },
+    {
+      "word": "ng",
+      "start": 57.5,
+      "end": 57.82
+    },
+    {
+      "word": "sampagita.",
+      "start": 57.82,
+      "end": 58.82
+    },
+    {
+      "word": "and",
+      "start": 59.46,
+      "end": 59.6
+    },
+    {
+      "word": "that",
+      "start": 59.6,
+      "end": 59.9
+    },
+    {
+      "word": "apple",
+      "start": 59.9,
+      "end": 60.58
+    },
+    {
+      "word": "and",
+      "start": 60.24,
+      "end": 61.56
+    },
+    {
+      "word": "that",
+      "start": 61.56,
+      "end": 61.8
+    },
+    {
+      "word": "apple",
+      "start": 61.8,
+      "end": 62.52
+    },
+    {
+      "word": "is",
+      "start": 62.16,
+      "end": 63.36
+    },
+    {
+      "word": "how",
+      "start": 63.36,
+      "end": 63.6
+    },
+    {
+      "word": "we",
+      "start": 63.6,
+      "end": 63.82
+    },
+    {
+      "word": "fell",
+      "start": 63.82,
+      "end": 64.06
+    },
+    {
+      "word": "in",
+      "start": 64.06,
+      "end": 64.3
+    },
+    {
+      "word": "love",
+      "start": 64.3,
+      "end": 64.58
+    }
+  ],
+  "segments": null,
+  "x_groq": {
+    "id": "req_01m7gvcty8ep1rk069k7xfwap1"
+  }
+}

@@ -1,0 +1,642 @@
+{
+  "task": "transcribe",
+  "language": "Tagalog",
+  "duration": 72.384004096,
+  "text": " Yung lolo mo, sis ko, jeepney driver siya noon sa Calamba, Laguna. Ako naman, nag-aaral ng nursing sa Maynila. Every Friday, umuwi ako. Tapos, mas masakay ako sa jeep niya. Pamasahin noon, 50 centimos lang, apo. Ay, teka, hindi pala Friday, Thursday yun. Kasi nga, half day kami tuwing biyernes. Basta ganon. One day, umulan ng malakas. Nabasa yung mga libro ko. Hinubad ni is ko yung jacket niya. Tapos sabi niya, Miss, ito muna. Baka magkasakit ka. Kinilig talaga ako. Pero nagpa-hard to get ako. Siyempre, nag-textan kami. Wala pang cellphone noon. Sulat-sulat lang. Mga apatnapot dalawang sulat yun. Nakatago pa sa baulit. Noong 1972, nag-propose siya sa harap ng jeepney may hawak na isang dosaya ng rosas. Sabi ko, oo, oo naman, ikaw pa.",
+  "words": [
+    {
+      "word": "Yung",
+      "start": 2.22,
+      "end": 2.38
+    },
+    {
+      "word": "lolo",
+      "start": 2.38,
+      "end": 2.68
+    },
+    {
+      "word": "mo,",
+      "start": 2.68,
+      "end": 3.26
+    },
+    {
+      "word": "sis",
+      "start": 3.26,
+      "end": 3.4
+    },
+    {
+      "word": "ko,",
+      "start": 3.4,
+      "end": 4.52
+    },
+    {
+      "word": "jeepney",
+      "start": 4.52,
+      "end": 4.86
+    },
+    {
+      "word": "driver",
+      "start": 4.86,
+      "end": 5.26
+    },
+    {
+      "word": "siya",
+      "start": 5.26,
+      "end": 5.52
+    },
+    {
+      "word": "noon",
+      "start": 5.52,
+      "end": 5.74
+    },
+    {
+      "word": "sa",
+      "start": 5.74,
+      "end": 6.62
+    },
+    {
+      "word": "Calamba,",
+      "start": 6.62,
+      "end": 7.3
+    },
+    {
+      "word": "Laguna.",
+      "start": 7.3,
+      "end": 7.66
+    },
+    {
+      "word": "Ako",
+      "start": 8.76,
+      "end": 8.94
+    },
+    {
+      "word": "naman,",
+      "start": 8.94,
+      "end": 10.06
+    },
+    {
+      "word": "nag-aaral",
+      "start": 10.06,
+      "end": 10.64
+    },
+    {
+      "word": "ng",
+      "start": 10.64,
+      "end": 10.8
+    },
+    {
+      "word": "nursing",
+      "start": 10.8,
+      "end": 11.14
+    },
+    {
+      "word": "sa",
+      "start": 11.14,
+      "end": 11.4
+    },
+    {
+      "word": "Maynila.",
+      "start": 11.4,
+      "end": 12.12
+    },
+    {
+      "word": "Every",
+      "start": 12.9,
+      "end": 13.24
+    },
+    {
+      "word": "Friday,",
+      "start": 13.24,
+      "end": 13.92
+    },
+    {
+      "word": "umuwi",
+      "start": 13.92,
+      "end": 14.34
+    },
+    {
+      "word": "ako.",
+      "start": 14.34,
+      "end": 14.6
+    },
+    {
+      "word": "Tapos,",
+      "start": 14.6,
+      "end": 15.56
+    },
+    {
+      "word": "mas",
+      "start": 15.56,
+      "end": 16.62
+    },
+    {
+      "word": "masakay",
+      "start": 16.62,
+      "end": 16.96
+    },
+    {
+      "word": "ako",
+      "start": 16.96,
+      "end": 17.06
+    },
+    {
+      "word": "sa",
+      "start": 17.06,
+      "end": 17.2
+    },
+    {
+      "word": "jeep",
+      "start": 17.2,
+      "end": 17.42
+    },
+    {
+      "word": "niya.",
+      "start": 17.42,
+      "end": 17.74
+    },
+    {
+      "word": "Pamasahin",
+      "start": 18.44,
+      "end": 19.02
+    },
+    {
+      "word": "noon,",
+      "start": 19.02,
+      "end": 20.12
+    },
+    {
+      "word": "50",
+      "start": 20.12,
+      "end": 20.76
+    },
+    {
+      "word": "centimos",
+      "start": 20.76,
+      "end": 21.26
+    },
+    {
+      "word": "lang,",
+      "start": 21.26,
+      "end": 21.76
+    },
+    {
+      "word": "apo.",
+      "start": 21.76,
+      "end": 22.1
+    },
+    {
+      "word": "Ay,",
+      "start": 22.8,
+      "end": 23.14
+    },
+    {
+      "word": "teka,",
+      "start": 23.14,
+      "end": 24.02
+    },
+    {
+      "word": "hindi",
+      "start": 24.02,
+      "end": 24.24
+    },
+    {
+      "word": "pala",
+      "start": 24.24,
+      "end": 24.54
+    },
+    {
+      "word": "Friday,",
+      "start": 24.54,
+      "end": 25.32
+    },
+    {
+      "word": "Thursday",
+      "start": 25.32,
+      "end": 25.62
+    },
+    {
+      "word": "yun.",
+      "start": 25.62,
+      "end": 26.3
+    },
+    {
+      "word": "Kasi",
+      "start": 26.98,
+      "end": 27.26
+    },
+    {
+      "word": "nga,",
+      "start": 27.26,
+      "end": 28.06
+    },
+    {
+      "word": "half",
+      "start": 28.06,
+      "end": 28.26
+    },
+    {
+      "word": "day",
+      "start": 28.26,
+      "end": 28.46
+    },
+    {
+      "word": "kami",
+      "start": 28.46,
+      "end": 28.7
+    },
+    {
+      "word": "tuwing",
+      "start": 28.7,
+      "end": 29.08
+    },
+    {
+      "word": "biyernes.",
+      "start": 29.08,
+      "end": 29.94
+    },
+    {
+      "word": "Basta",
+      "start": 30.52,
+      "end": 30.8
+    },
+    {
+      "word": "ganon.",
+      "start": 30.8,
+      "end": 31.4
+    },
+    {
+      "word": "One",
+      "start": 31.94,
+      "end": 32.16
+    },
+    {
+      "word": "day,",
+      "start": 32.16,
+      "end": 32.66
+    },
+    {
+      "word": "umulan",
+      "start": 32.66,
+      "end": 32.94
+    },
+    {
+      "word": "ng",
+      "start": 32.94,
+      "end": 33.12
+    },
+    {
+      "word": "malakas.",
+      "start": 33.12,
+      "end": 34.24
+    },
+    {
+      "word": "Nabasa",
+      "start": 34.14,
+      "end": 34.46
+    },
+    {
+      "word": "yung",
+      "start": 34.46,
+      "end": 34.6
+    },
+    {
+      "word": "mga",
+      "start": 34.6,
+      "end": 34.8
+    },
+    {
+      "word": "libro",
+      "start": 34.8,
+      "end": 35.06
+    },
+    {
+      "word": "ko.",
+      "start": 35.06,
+      "end": 35.4
+    },
+    {
+      "word": "Hinubad",
+      "start": 36.02,
+      "end": 36.46
+    },
+    {
+      "word": "ni",
+      "start": 36.46,
+      "end": 36.62
+    },
+    {
+      "word": "is",
+      "start": 36.62,
+      "end": 36.78
+    },
+    {
+      "word": "ko",
+      "start": 36.78,
+      "end": 36.98
+    },
+    {
+      "word": "yung",
+      "start": 36.98,
+      "end": 37.16
+    },
+    {
+      "word": "jacket",
+      "start": 37.16,
+      "end": 37.48
+    },
+    {
+      "word": "niya.",
+      "start": 37.48,
+      "end": 37.94
+    },
+    {
+      "word": "Tapos",
+      "start": 38.24,
+      "end": 38.54
+    },
+    {
+      "word": "sabi",
+      "start": 38.54,
+      "end": 38.82
+    },
+    {
+      "word": "niya,",
+      "start": 38.82,
+      "end": 39.46
+    },
+    {
+      "word": "Miss,",
+      "start": 39.78,
+      "end": 40.8
+    },
+    {
+      "word": "ito",
+      "start": 40.8,
+      "end": 41.02
+    },
+    {
+      "word": "muna.",
+      "start": 41.02,
+      "end": 41.56
+    },
+    {
+      "word": "Baka",
+      "start": 41.98,
+      "end": 42.26
+    },
+    {
+      "word": "magkasakit",
+      "start": 42.26,
+      "end": 42.94
+    },
+    {
+      "word": "ka.",
+      "start": 42.94,
+      "end": 43.3
+    },
+    {
+      "word": "Kinilig",
+      "start": 44.14,
+      "end": 44.6
+    },
+    {
+      "word": "talaga",
+      "start": 44.6,
+      "end": 44.94
+    },
+    {
+      "word": "ako.",
+      "start": 44.94,
+      "end": 45.58
+    },
+    {
+      "word": "Pero",
+      "start": 46,
+      "end": 46.2
+    },
+    {
+      "word": "nagpa-hard",
+      "start": 46.2,
+      "end": 47.12
+    },
+    {
+      "word": "to",
+      "start": 47.12,
+      "end": 47.4
+    },
+    {
+      "word": "get",
+      "start": 47.4,
+      "end": 47.62
+    },
+    {
+      "word": "ako.",
+      "start": 47.62,
+      "end": 48.22
+    },
+    {
+      "word": "Siyempre,",
+      "start": 48.2,
+      "end": 49.12
+    },
+    {
+      "word": "nag-textan",
+      "start": 49.84,
+      "end": 50.52
+    },
+    {
+      "word": "kami.",
+      "start": 50.52,
+      "end": 50.92
+    },
+    {
+      "word": "Wala",
+      "start": 51.74,
+      "end": 52
+    },
+    {
+      "word": "pang",
+      "start": 52,
+      "end": 52.2
+    },
+    {
+      "word": "cellphone",
+      "start": 52.2,
+      "end": 52.5
+    },
+    {
+      "word": "noon.",
+      "start": 52.5,
+      "end": 53.14
+    },
+    {
+      "word": "Sulat-sulat",
+      "start": 53.58,
+      "end": 54.4
+    },
+    {
+      "word": "lang.",
+      "start": 54.4,
+      "end": 54.72
+    },
+    {
+      "word": "Mga",
+      "start": 55.54,
+      "end": 55.8
+    },
+    {
+      "word": "apatnapot",
+      "start": 55.8,
+      "end": 56.58
+    },
+    {
+      "word": "dalawang",
+      "start": 56.58,
+      "end": 57.16
+    },
+    {
+      "word": "sulat",
+      "start": 57.16,
+      "end": 57.78
+    },
+    {
+      "word": "yun.",
+      "start": 57.78,
+      "end": 58.26
+    },
+    {
+      "word": "Nakatago",
+      "start": 58.6,
+      "end": 59.2
+    },
+    {
+      "word": "pa",
+      "start": 59.2,
+      "end": 59.36
+    },
+    {
+      "word": "sa",
+      "start": 59.36,
+      "end": 59.52
+    },
+    {
+      "word": "baulit.",
+      "start": 59.52,
+      "end": 59.98
+    },
+    {
+      "word": "Noong",
+      "start": 60.86,
+      "end": 61.1
+    },
+    {
+      "word": "1972,",
+      "start": 61.1,
+      "end": 62.84
+    },
+    {
+      "word": "nag-propose",
+      "start": 62.84,
+      "end": 63.62
+    },
+    {
+      "word": "siya",
+      "start": 63.62,
+      "end": 63.84
+    },
+    {
+      "word": "sa",
+      "start": 63.84,
+      "end": 64.06
+    },
+    {
+      "word": "harap",
+      "start": 64.06,
+      "end": 64.22
+    },
+    {
+      "word": "ng",
+      "start": 64.22,
+      "end": 64.38
+    },
+    {
+      "word": "jeepney",
+      "start": 64.38,
+      "end": 64.82
+    },
+    {
+      "word": "may",
+      "start": 64.82,
+      "end": 65.66
+    },
+    {
+      "word": "hawak",
+      "start": 65.66,
+      "end": 66.16
+    },
+    {
+      "word": "na",
+      "start": 66.16,
+      "end": 66.32
+    },
+    {
+      "word": "isang",
+      "start": 66.32,
+      "end": 66.6
+    },
+    {
+      "word": "dosaya",
+      "start": 66.6,
+      "end": 66.84
+    },
+    {
+      "word": "ng",
+      "start": 66.84,
+      "end": 67
+    },
+    {
+      "word": "rosas.",
+      "start": 67,
+      "end": 67.5
+    },
+    {
+      "word": "Sabi",
+      "start": 67.44,
+      "end": 67.88
+    },
+    {
+      "word": "ko,",
+      "start": 67.88,
+      "end": 68.28
+    },
+    {
+      "word": "oo,",
+      "start": 68.28,
+      "end": 69.44
+    },
+    {
+      "word": "oo",
+      "start": 69.44,
+      "end": 70.24
+    },
+    {
+      "word": "naman,",
+      "start": 70.24,
+      "end": 70.92
+    },
+    {
+      "word": "ikaw",
+      "start": 70.92,
+      "end": 71.1
+    },
+    {
+      "word": "pa.",
+      "start": 71.1,
+      "end": 71.6
+    }
+  ],
+  "segments": null,
+  "x_groq": {
+    "id": "req_01m7gwe3pse0kr2242dq59395r"
+  }
+}

@@ -1,0 +1,12 @@
+# Names, places and things the scenes must keep (from references/crush.txt).
+# "a | b" = either one counts. "!word" = a misheard word that must NOT reach the scenes.
+Ben
+Lipa
+Batangas
+sampaguita
+simbahan | church
+gitara | guitar
+harana | serenade
+# Whisper heard "sa akin" as "sa arlo" and "apo" as "apple".
+!arlo
+!apple

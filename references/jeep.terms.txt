@@ -1,0 +1,15 @@
+# Names, places and things the scenes must keep (from references/jeep.txt).
+# "a | b" = either one counts. "!word" = a misheard word that must NOT reach the scenes.
+Isko
+Calamba
+Laguna
+Maynila | Manila
+jeep | jeepney
+Thursday | Huwebes
+sulat | letter | letters
+rosas | roses
+# The storyteller corrected herself: it was Thursday, not Friday.
+!Friday
+# Whisper turbo heard "si Isko" as "sis ko" and "baul" as "baulit".
+!sis
+!baulit

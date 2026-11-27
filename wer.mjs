@@ -6,7 +6,7 @@ import { pathToFileURL } from 'node:url';
 // Lowercase, remove punctuation, split into words. "mag-aral" stays one word.
 export function normalize(text) {
   return text.normalize('NFC').toLowerCase()
-    .replace(/[-'’]/g, '')               // join hyphenated/apostrophe words
+    .replace(/[-‐‑'‘’]/g, '')               // join hyphenated/apostrophe words
     .replace(/[^\p{L}\p{N}\s]/gu, ' ')   // other punctuation -> space
     .split(/\s+/).filter(Boolean);
 }
@@ -44,19 +44,22 @@ export function wer(refText, hypText) {
     }
 
   // Walk back through the table to list each error.
-  const subs = [], missing = [], added = [];
-  for (let i = r.length, j = h.length; i || j; ) {
+  // refAt[j] = how many reference words line up with the first j model words.
+  const subs = [], missing = [], added = [], refAt = [];
+  for (let i = r.length, j = h.length; ; ) {
+    refAt[j] = i; // walking backwards, so the last write per j is the smallest i
+    if (!i && !j) break;
     const move = cell[i][j][2];
     if (move === 'sub') { if (r[i - 1] !== h[j - 1]) subs.unshift([r[i - 1], h[j - 1]]); i--; j--; }
     else if (move === 'del') missing.unshift(r[--i]);
     else added.unshift(h[--j]);
   }
   const N = r.length, errors = subs.length + missing.length + added.length;
-  return { wer: N ? errors / N : 0, S: subs.length, D: missing.length, I: added.length, N, subs, missing, added };
+  return { wer: N ? errors / N : 0, S: subs.length, D: missing.length, I: added.length, N, subs, missing, added, refAt };
 }
 
 // Command-line use (skipped when report.mjs imports this file).
-if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const [refPath, hypPath] = process.argv.slice(2);
   if (!refPath || !hypPath) {
     console.error('Usage: node wer.mjs <reference.txt> <result.txt>');

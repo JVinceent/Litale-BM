@@ -7,7 +7,8 @@ export const GROQ = 'https://api.groq.com/openai/v1';
 export const models = {
   stt: ['whisper-large-v3', 'whisper-large-v3-turbo'],
   // The spec's llama-3.3-70b-versatile is no longer on Groq (checked 2026-11-16).
-  scenes: ['openai/gpt-oss-120b'],        // e.g. add 'qwen/qwen3.8-27b'
+  // All three support strict json_schema on Groq (docs checked 2026-11-25).
+  scenes: ['openai/gpt-oss-120b', 'openai/gpt-oss-20b', 'qwen/qwen3.8-27b'],
 };
 
 // Folders, resolved next to this file so scripts work from any directory.

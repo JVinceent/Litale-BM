@@ -1,0 +1,89 @@
+{
+  "story": "crush",
+  "source": "crush.reference",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "v3",
+  "run": 2,
+  "ms": 27569,
+  "usage": {
+    "queue_time": 0.160640363,
+    "prompt_tokens": 744,
+    "prompt_time": 0.040672685,
+    "completion_tokens": 1574,
+    "completion_time": 3.301222654,
+    "total_tokens": 2318,
+    "total_time": 3.341895339,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1183
+    }
+  },
+  "sentences": [
+    "Noong bata pa ako, nakatira kami sa Lipa, Batangas.",
+    "Every Sunday, nagtitinda ako ng sampaguita sa harap ng simbahan.",
+    "Isang umaga, may binatang lumapit sa akin.",
+    "His name was Ben.",
+    "Bumili siya ng isang kwintas ng sampaguita.",
+    "Tapos bumalik siya the next Sunday.",
+    "At the next Sunday ulit.",
+    "Sabi ko sa sarili ko, “Ang dami naman niyang sampaguita!”",
+    "Isang gabi, dumating si Ben sa bahay namin.",
+    "May dala siyang gitara.",
+    "Kinantahan niya ako ng harana sa ilalim ng bintana.",
+    "Nahiya ako, pero I was so happy.",
+    "After two years, ikinasal kami sa parehong simbahan.",
+    "Hanggang ngayon, every anniversary, binibigyan pa rin ako ni Lolo Ben ng sampaguita.",
+    "And that, apo, is how I fell in love."
+  ],
+  "checks": [
+    {
+      "name": "valid JSON",
+      "pass": true
+    },
+    {
+      "name": "exactly 4 scenes",
+      "pass": true
+    },
+    {
+      "name": "positions 1-4 in order",
+      "pass": true
+    },
+    {
+      "name": "every sentence used exactly once",
+      "pass": true
+    }
+  ],
+  "output": {
+    "title": "A Love Story of Sampaguita",
+    "scenes": [
+      {
+        "position": 1,
+        "sentence_start": 1,
+        "sentence_end": 2,
+        "text": "Noong bata pa ako, nakatira kami sa Lipa, Batangas. Every Sunday, nagtitinda ako ng sampaguita sa harap ng simbahan.",
+        "visual": "A small house in Lipa with a child standing near a church, holding a basket of white sampaguita flowers."
+      },
+      {
+        "position": 2,
+        "sentence_start": 3,
+        "sentence_end": 5,
+        "text": "Isang umaga, may binatang lumapit sa akin. His name was Ben. Bumili siya ng isang kwintas ng sampaguita.",
+        "visual": "A sunny morning scene where a young boy named Ben hands a necklace of sampaguita flowers to the narrator."
+      },
+      {
+        "position": 3,
+        "sentence_start": 6,
+        "sentence_end": 12,
+        "text": "Tapos bumalik siya the next Sunday. At the next Sunday, ulit. Sabi ko sa sarili ko, “Ang dami naman niyang sampaguita!” Isang gabi, dumating si Ben sa bahay namin. May dala siyang gitara. Kinantahan niya ako ng harana sa ilalim ng bintana. Nahiya ako, pero I was so happy.",
+        "visual": "A night scene with Ben arriving at the house, holding a guitar, singing a harana under the window while the narrator looks shy."
+      },
+      {
+        "position": 4,
+        "sentence_start": 13,
+        "sentence_end": 15,
+        "text": "After two years, ikinasal kami sa parehong simbahan. Hanggang ngayon, every anniversary, binibigyan pa rin ako ni Lolo Ben ng sampaguita. And that, apo, is how I fell in love.",
+        "visual": "A wedding ceremony at the same church, followed by an older couple receiving a bouquet of sampaguita from an elderly man during their anniversary."
+      }
+    ]
+  },
+  "raw": "{\"title\":\"A Love Story of Sampaguita\",\"scenes\":[{\"position\":1,\"sentence_start\":1,\"sentence_end\":2,\"text\":\"Noong bata pa ako, nakatira kami sa Lipa, Batangas. Every Sunday, nagtitinda ako ng sampaguita sa harap ng simbahan.\",\"visual\":\"A small house in Lipa with a child standing near a church, holding a basket of white sampaguita flowers.\"},{\"position\":2,\"sentence_start\":3,\"sentence_end\":5,\"text\":\"Isang umaga, may binatang lumapit sa akin. His name was Ben. Bumili siya ng isang kwintas ng sampaguita.\",\"visual\":\"A sunny morning scene where a young boy named Ben hands a necklace of sampaguita flowers to the narrator.\"},{\"position\":3,\"sentence_start\":6,\"sentence_end\":12,\"text\":\"Tapos bumalik siya the next Sunday. At the next Sunday, ulit. Sabi ko sa sarili ko, “Ang dami naman niyang sampaguita!” Isang gabi, dumating si Ben sa bahay namin. May dala siyang gitara. Kinantahan niya ako ng harana sa ilalim ng bintana. Nahiya ako, pero I was so happy.\",\"visual\":\"A night scene with Ben arriving at the house, holding a guitar, singing a harana under the window while the narrator looks shy.\"},{\"position\":4,\"sentence_start\":13,\"sentence_end\":15,\"text\":\"After two years, ikinasal kami sa parehong simbahan. Hanggang ngayon, every anniversary, binibigyan pa rin ako ni Lolo Ben ng sampaguita. And that, apo, is how I fell in love.\",\"visual\":\"A wedding ceremony at the same church, followed by an older couple receiving a bouquet of sampaguita from an elderly man during their anniversary.\"}]}"
+}

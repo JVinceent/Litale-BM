@@ -1,0 +1,105 @@
+{
+  "story": "jeep",
+  "source": "jeep.whisper-large-v3-turbo",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "v2",
+  "run": 2,
+  "ms": 20178,
+  "usage": {
+    "queue_time": 0.161738303,
+    "prompt_tokens": 776,
+    "prompt_time": 0.036165855,
+    "completion_tokens": 2044,
+    "completion_time": 4.246383322,
+    "total_tokens": 2820,
+    "total_time": 4.282549177,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1672
+    }
+  },
+  "sentences": [
+    "Yung lolo mo, sis ko, jeepney driver siya noon sa Calamba, Laguna.",
+    "Ako naman, nag-aaral ng nursing sa Maynila.",
+    "Every Friday, umuwi ako.",
+    "Tapos, mas masakay ako sa jeep niya.",
+    "Pamasahin noon, 50 centimos lang, apo.",
+    "Ay, teka, hindi pala Friday, Thursday yun.",
+    "Kasi nga, half day kami tuwing biyernes.",
+    "Basta ganon.",
+    "One day, umulan ng malakas.",
+    "Nabasa yung mga libro ko.",
+    "Hinubad ni is ko yung jacket niya.",
+    "Tapos sabi niya, Miss, ito muna.",
+    "Baka magkasakit ka.",
+    "Kinilig talaga ako.",
+    "Pero nagpa-hard to get ako.",
+    "Siyempre,",
+    "nag-textan kami.",
+    "Wala pang cellphone noon.",
+    "Sulat-sulat lang.",
+    "Mga apatnapot dalawang sulat yun.",
+    "Nakatago pa sa baulit.",
+    "Noong 1972, nag-propose siya sa harap ng jeepney may hawak na isang dosaya ng rosas.",
+    "Sabi ko, oo, oo naman, ikaw pa."
+  ],
+  "checks": [
+    {
+      "name": "valid JSON",
+      "pass": true
+    },
+    {
+      "name": "exactly 4 scenes",
+      "pass": true
+    },
+    {
+      "name": "positions 1-4 in order",
+      "pass": true
+    },
+    {
+      "name": "every sentence used exactly once",
+      "pass": true
+    }
+  ],
+  "output": {
+    "title": "Lolo's Jeepney Story",
+    "scenes": [
+      {
+        "position": 1,
+        "sentence_start": 1,
+        "sentence_end": 8,
+        "text": "Lolo ko ay jeepney driver noon sa Calamba, Laguna. Ako ay nag-aaral ng nursing sa Maynila at tuwing Thursday umuuwi ako sa bahay. Ang pamasahe ay 50 sentimo lang.",
+        "visual": "Draw Lolo driving a bright jeepney in Calamba with a young nursing student waving goodbye.",
+        "audio_start": 2.22,
+        "audio_end": 31.4
+      },
+      {
+        "position": 2,
+        "sentence_start": 9,
+        "sentence_end": 13,
+        "text": "Isang araw, umulan ng malakas at nabasa ang mga libro ko. Hinubad ko ang jacket niya at sinabi niya, 'Miss, ito muna.' Baka magkasakit ka, kaya nag‑ingat ako.",
+        "visual": "Draw a rainy street with wet books, a jacket being taken off, and a caring lady saying 'Miss, ito muna.'",
+        "audio_start": 31.94,
+        "audio_end": 43.3
+      },
+      {
+        "position": 3,
+        "sentence_start": 14,
+        "sentence_end": 21,
+        "text": "Kinilig ako pero nagpa‑hard to get. Siyempre, nag‑text kami kahit walang cellphone noon, kaya sulat‑sulat lang kami. May apatnapu’t dalawang sulat na nakatago pa sa baul.",
+        "visual": "Draw two people exchanging handwritten letters from a hidden box, with hearts showing their shy feelings.",
+        "audio_start": 44.14,
+        "audio_end": 59.98
+      },
+      {
+        "position": 4,
+        "sentence_start": 22,
+        "sentence_end": 23,
+        "text": "Noong 1972, nag‑propose siya sa harap ng jeepney na may hawak na isang dosya ng rosas. Sabi ko, oo, oo naman, ikaw pa!",
+        "visual": "Draw a 1972 scene in front of a jeepney where a man holds a bouquet of roses and proposes to a woman.",
+        "audio_start": 60.86,
+        "audio_end": 71.6
+      }
+    ]
+  },
+  "raw": "{\"title\":\"Lolo's Jeepney Story\",\"scenes\":[{\"position\":1,\"sentence_start\":1,\"sentence_end\":8,\"text\":\"Lolo ko ay jeepney driver noon sa Calamba, Laguna. Ako ay nag-aaral ng nursing sa Maynila at tuwing Thursday umuuwi ako sa bahay. Ang pamasahe ay 50 sentimo lang.\",\"visual\":\"Draw Lolo driving a bright jeepney in Calamba with a young nursing student waving goodbye.\"},{\"position\":2,\"sentence_start\":9,\"sentence_end\":13,\"text\":\"Isang araw, umulan ng malakas at nabasa ang mga libro ko. Hinubad ko ang jacket niya at sinabi niya, 'Miss, ito muna.' Baka magkasakit ka, kaya nag‑ingat ako.\",\"visual\":\"Draw a rainy street with wet books, a jacket being taken off, and a caring lady saying 'Miss, ito muna.'\"},{\"position\":3,\"sentence_start\":14,\"sentence_end\":21,\"text\":\"Kinilig ako pero nagpa‑hard to get. Siyempre, nag‑text kami kahit walang cellphone noon, kaya sulat‑sulat lang kami. May apatnapu’t dalawang sulat na nakatago pa sa baul.\",\"visual\":\"Draw two people exchanging handwritten letters from a hidden box, with hearts showing their shy feelings.\"},{\"position\":4,\"sentence_start\":22,\"sentence_end\":23,\"text\":\"Noong 1972, nag‑propose siya sa harap ng jeepney na may hawak na isang dosya ng rosas. Sabi ko, oo, oo naman, ikaw pa!\",\"visual\":\"Draw a 1972 scene in front of a jeepney where a man holds a bouquet of roses and proposes to a woman.\"}]}"
+}

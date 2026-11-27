@@ -1,0 +1,107 @@
+{
+  "story": "jeep",
+  "source": "jeep.whisper-large-v3",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "v3",
+  "run": 2,
+  "ms": 21932,
+  "usage": {
+    "queue_time": 0.158303549,
+    "prompt_tokens": 786,
+    "prompt_time": 0.058220194,
+    "completion_tokens": 2424,
+    "completion_time": 6.663258141,
+    "total_tokens": 3210,
+    "total_time": 6.7214783350000005,
+    "prompt_tokens_details": {
+      "cached_tokens": 256
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1981
+    }
+  },
+  "sentences": [
+    "Yung lolo mo si Isko, jeepney driver siya noon sa Calamba, Laguna.",
+    "Ako naman nag-aaral ng nursing sa Maynila.",
+    "Every Friday umuuwi ako tapos masumasakay ako sa jeep niya.",
+    "Pumasahin noon 50 centimos lang apo.",
+    "Ay teka, hindi pala Friday, Thursday yun.",
+    "kasi nga half day kami tuwing biyernes.",
+    "Basta ganon.",
+    "One day, umulan ng malakas.",
+    "Nabasa yung mga libro ko.",
+    "Hinubad ni Isko yung jacket niya.",
+    "Tapos sabi niya, Miss, ito muna.",
+    "Baka magkasakit ka.",
+    "Hinilig talaga ako.",
+    "Pero nagpa-hard to get ako.",
+    "Siyempre,",
+    "nag-textan kami.",
+    "Wala pang cellphone noon.",
+    "Sulat-sulat lang.",
+    "Mga apatnapot dalawang sulat yun Nakatago pa sa bauli",
+    "Noong 1972",
+    "Nag-propose siya sa harap ng jeepney",
+    "May hawak na isang dosenang rosas Sabi ko Oo Oo naman, ikaw pa"
+  ],
+  "checks": [
+    {
+      "name": "valid JSON",
+      "pass": true
+    },
+    {
+      "name": "exactly 4 scenes",
+      "pass": true
+    },
+    {
+      "name": "positions 1-4 in order",
+      "pass": true
+    },
+    {
+      "name": "every sentence used exactly once",
+      "pass": true
+    }
+  ],
+  "output": {
+    "title": "Story of Lolo Isko",
+    "scenes": [
+      {
+        "position": 1,
+        "sentence_start": 1,
+        "sentence_end": 7,
+        "text": "Yung lolo mo si Isko, jeepney driver siya noon sa Calamba, Laguna. Ako naman nag-aaral ng nursing sa Maynila. Every Friday umuuwi ako tapos masumasakay ako sa jeep niya. Pumasahin noon 50 centimos lang apo. Teka, hindi pala Friday, Thursday yun. Kasi nga half day kami tuwing biyernes. Basta ganon.",
+        "visual": "Draw Lolo Isko driving his jeepney in Calamba, Laguna, while the narrator, a nursing student from Manila, stands nearby with a calendar showing Friday and Thursday.",
+        "audio_start": 0,
+        "audio_end": 31.14
+      },
+      {
+        "position": 2,
+        "sentence_start": 8,
+        "sentence_end": 14,
+        "text": "One day, umulan ng malakas. Nabasa yung mga libro ko. Hinubad ni Isko yung jacket niya. Tapos sabi niya, Miss, ito muna. Baka magkasakit ka. Hinilig talaga ako. Pero nagpa-hard to get ako.",
+        "visual": "Draw a heavy rain pouring on the street, the narrator’s books getting wet, and Lolo Isko handing over his jacket to the narrator.",
+        "audio_start": 32.02,
+        "audio_end": 48.5
+      },
+      {
+        "position": 3,
+        "sentence_start": 15,
+        "sentence_end": 18,
+        "text": "Siyempre. Nag-textan kami. Wala pang cellphone noon. Sulat-sulat lang.",
+        "visual": "Draw the two characters writing letters to each other, with no cellphone, and a small pile of handwritten notes.",
+        "audio_start": 47.7,
+        "audio_end": 55.22
+      },
+      {
+        "position": 4,
+        "sentence_start": 19,
+        "sentence_end": 22,
+        "text": "Mga apatnapu't dalawang sulat yun, nakatago pa sa bauli. Noong 1972. Nag-propose siya sa harap ng jeepney. May hawak na isang dosenang rosas. Sabi ko, 'Oo, oo naman, ikaw pa'.",
+        "visual": "Draw a wooden baul containing many letters, a sign that says 1972, and Lolo Isko proposing in front of a jeepney holding a dozen roses while the narrator says yes.",
+        "audio_start": 55.52,
+        "audio_end": 71.38
+      }
+    ]
+  },
+  "raw": "{\"title\":\"Story of Lolo Isko\",\"scenes\":[{\"position\":1,\"sentence_start\":1,\"sentence_end\":7,\"text\":\"Yung lolo mo si Isko, jeepney driver siya noon sa Calamba, Laguna. Ako naman nag-aaral ng nursing sa Maynila. Every Friday umuuwi ako tapos masumasakay ako sa jeep niya. Pumasahin noon 50 centimos lang apo. Teka, hindi pala Friday, Thursday yun. Kasi nga half day kami tuwing biyernes. Basta ganon.\",\"visual\":\"Draw Lolo Isko driving his jeepney in Calamba, Laguna, while the narrator, a nursing student from Manila, stands nearby with a calendar showing Friday and Thursday.\"},{\"position\":2,\"sentence_start\":8,\"sentence_end\":14,\"text\":\"One day, umulan ng malakas. Nabasa yung mga libro ko. Hinubad ni Isko yung jacket niya. Tapos sabi niya, Miss, ito muna. Baka magkasakit ka. Hinilig talaga ako. Pero nagpa-hard to get ako.\",\"visual\":\"Draw a heavy rain pouring on the street, the narrator’s books getting wet, and Lolo Isko handing over his jacket to the narrator.\"},{\"position\":3,\"sentence_start\":15,\"sentence_end\":18,\"text\":\"Siyempre. Nag-textan kami. Wala pang cellphone noon. Sulat-sulat lang.\",\"visual\":\"Draw the two characters writing letters to each other, with no cellphone, and a small pile of handwritten notes.\"},{\"position\":4,\"sentence_start\":19,\"sentence_end\":22,\"text\":\"Mga apatnapu't dalawang sulat yun, nakatago pa sa bauli. Noong 1972. Nag-propose siya sa harap ng jeepney. May hawak na isang dosenang rosas. Sabi ko, 'Oo, oo naman, ikaw pa'.\",\"visual\":\"Draw a wooden baul containing many letters, a sign that says 1972, and Lolo Isko proposing in front of a jeepney holding a dozen roses while the narrator says yes.\"}]}"
+}

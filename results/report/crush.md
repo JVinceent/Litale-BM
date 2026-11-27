@@ -63,4 +63,16 @@ WER (Word Error Rate) = errors ÷ words in the correct transcript. Lower is bett
 
 ## Scene division
 
-_No results yet._
+| Model | Checks passed | Notes |
+| --- | --- | --- |
+| openai/gpt-oss-120b | 4/4 | run 1, prompt v1, from crush.reference |
+| openai/gpt-oss-120b | 4/4 | run 1, prompt v2, from crush.reference |
+| openai/gpt-oss-20b | 4/4 | run 1, prompt v1, from crush.reference |
+| openai/gpt-oss-20b | 4/4 | run 1, prompt v2, from crush.reference |
+| openai/gpt-oss-120b | 4/4 | run 1, prompt v1, from crush.whisper-large-v3-turbo |
+| openai/gpt-oss-120b | 4/4 | run 1, prompt v2, from crush.whisper-large-v3-turbo |
+| openai/gpt-oss-20b | 4/4 | run 1, prompt v1, from crush.whisper-large-v3-turbo |
+| openai/gpt-oss-120b | 4/4 | run 1, prompt v1, from crush.whisper-large-v3 |
+| openai/gpt-oss-120b | 4/4 | run 1, prompt v2, from crush.whisper-large-v3 |
+| openai/gpt-oss-20b | 1/4 | run 1, prompt v1, from crush.whisper-large-v3, FAIL: exactly 4 scenes, FAIL: positions 1-4 in order, FAIL: every sentence used exactly once |
+| openai/gpt-oss-20b | 4/4 | run 1, prompt v2, from crush.whisper-large-v3 |

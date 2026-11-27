@@ -1,0 +1,101 @@
+{
+  "story": "crush",
+  "source": "crush.whisper-large-v3",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "v2",
+  "run": 4,
+  "ms": 12808,
+  "usage": {
+    "queue_time": 0.010956853,
+    "prompt_tokens": 728,
+    "prompt_time": 0.0133085,
+    "completion_tokens": 1130,
+    "completion_time": 2.993428742,
+    "total_tokens": 1858,
+    "total_time": 3.006737242,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 781
+    }
+  },
+  "sentences": [
+    "Noong bata pa ako, nakatira kami sa Lipa, Batangas.",
+    "Every Sunday, nagtitinda ako ng sampagita sa arap ng simbahan.",
+    "Isang umaga, may binatang lumapit sa akin.",
+    "His name was Ben.",
+    "Bumili siya ng isang kwintas ng sampagita.",
+    "Tapos bumalik siya the next Sunday.",
+    "At the next Sunday ulit, sabi ko sa sarili ko,",
+    "Ang dami naman niyang sampagita",
+    "Isang gabi, dumating si Ben sa bahay namin",
+    "May dala siyang gitara",
+    "Tinantahan niya ako ng harana sa ilalim ng bintana",
+    "Nahiya ako noon pero I was so happy",
+    "And after two years, ikinasal na kami sa parehong simbahan",
+    "Hanggang ngayon, every anniversary, binibigyan pa rin ako ni Lolo Ben ng sampagita",
+    "And that, apo.",
+    "And that, apo, is how we fell in love."
+  ],
+  "checks": [
+    {
+      "name": "valid JSON",
+      "pass": true
+    },
+    {
+      "name": "exactly 4 scenes",
+      "pass": true
+    },
+    {
+      "name": "positions 1-4 in order",
+      "pass": true
+    },
+    {
+      "name": "every sentence used exactly once",
+      "pass": true
+    }
+  ],
+  "output": {
+    "title": "A Love Story of Sampagita",
+    "scenes": [
+      {
+        "position": 1,
+        "sentence_start": 1,
+        "sentence_end": 2,
+        "text": "Noong bata pa ako, nakatira kami sa Lipa, Batangas. Every Sunday, nagtitinda ako ng sampagita sa harap ng simbahan.",
+        "visual": "Draw a young child standing in front of a church in Lipa, holding a basket of sampagita flowers.",
+        "audio_start": 1.3,
+        "audio_end": 11.58
+      },
+      {
+        "position": 2,
+        "sentence_start": 3,
+        "sentence_end": 8,
+        "text": "Isang umaga, may binatang lumapit sa akin. His name was Ben and he bought a sampagita necklace. The next Sunday he came back with many more sampagita.",
+        "visual": "Draw Ben handing a flower necklace to the narrator under a sunny sky.",
+        "audio_start": 12.96,
+        "audio_end": 31.8
+      },
+      {
+        "position": 3,
+        "sentence_start": 9,
+        "sentence_end": 12,
+        "text": "Isang gabi, dumating si Ben sa bahay namin na may dala‑dulang gitara. Tinantahan niya ako ng harana sa ilalim ng bintana. Nahiya ako noon pero I was so happy.",
+        "visual": "Draw Ben playing guitar at a window while the narrator peeks out, blushing.",
+        "audio_start": 33.02,
+        "audio_end": 48
+      },
+      {
+        "position": 4,
+        "sentence_start": 13,
+        "sentence_end": 16,
+        "text": "And after two years, ikinasal na kami sa parehong simbahan. Hanggang ngayon, every anniversary, binibigyan pa rin ako ni Lolo Ben ng sampagita. And that, apo, is how we fell in love.",
+        "visual": "Draw the couple holding hands at a church altar with sampagita flowers, and an older Ben giving a flower to the narrator.",
+        "audio_start": 49.04,
+        "audio_end": 64.6
+      }
+    ]
+  },
+  "raw": "{\"title\":\"A Love Story of Sampagita\",\"scenes\":[{\"position\":1,\"sentence_start\":1,\"sentence_end\":2,\"text\":\"Noong bata pa ako, nakatira kami sa Lipa, Batangas. Every Sunday, nagtitinda ako ng sampagita sa harap ng simbahan.\",\"visual\":\"Draw a young child standing in front of a church in Lipa, holding a basket of sampagita flowers.\"},{\"position\":2,\"sentence_start\":3,\"sentence_end\":8,\"text\":\"Isang umaga, may binatang lumapit sa akin. His name was Ben and he bought a sampagita necklace. The next Sunday he came back with many more sampagita.\",\"visual\":\"Draw Ben handing a flower necklace to the narrator under a sunny sky.\"},{\"position\":3,\"sentence_start\":9,\"sentence_end\":12,\"text\":\"Isang gabi, dumating si Ben sa bahay namin na may dala‑dulang gitara. Tinantahan niya ako ng harana sa ilalim ng bintana. Nahiya ako noon pero I was so happy.\",\"visual\":\"Draw Ben playing guitar at a window while the narrator peeks out, blushing.\"},{\"position\":4,\"sentence_start\":13,\"sentence_end\":16,\"text\":\"And after two years, ikinasal na kami sa parehong simbahan. Hanggang ngayon, every anniversary, binibigyan pa rin ako ni Lolo Ben ng sampagita. And that, apo, is how we fell in love.\",\"visual\":\"Draw the couple holding hands at a church altar with sampagita flowers, and an older Ben giving a flower to the narrator.\"}]}"
+}

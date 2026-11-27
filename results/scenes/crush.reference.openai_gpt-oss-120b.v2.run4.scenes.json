@@ -1,0 +1,92 @@
+{
+  "story": "crush",
+  "source": "crush.reference",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "v2",
+  "run": 4,
+  "ms": 23331,
+  "usage": {
+    "queue_time": 0.011115078,
+    "prompt_tokens": 720,
+    "prompt_time": 0.009776587,
+    "completion_tokens": 1282,
+    "completion_time": 5.262635923,
+    "total_tokens": 2002,
+    "total_time": 5.27241251,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 914
+    }
+  },
+  "sentences": [
+    "Noong bata pa ako, nakatira kami sa Lipa, Batangas.",
+    "Every Sunday, nagtitinda ako ng sampaguita sa harap ng simbahan.",
+    "Isang umaga, may binatang lumapit sa akin.",
+    "His name was Ben.",
+    "Bumili siya ng isang kwintas ng sampaguita.",
+    "Tapos bumalik siya the next Sunday.",
+    "At the next Sunday ulit.",
+    "Sabi ko sa sarili ko, “Ang dami naman niyang sampaguita!”",
+    "Isang gabi, dumating si Ben sa bahay namin.",
+    "May dala siyang gitara.",
+    "Kinantahan niya ako ng harana sa ilalim ng bintana.",
+    "Nahiya ako, pero I was so happy.",
+    "After two years, ikinasal kami sa parehong simbahan.",
+    "Hanggang ngayon, every anniversary, binibigyan pa rin ako ni Lolo Ben ng sampaguita.",
+    "And that, apo, is how I fell in love."
+  ],
+  "checks": [
+    {
+      "name": "valid JSON",
+      "pass": true
+    },
+    {
+      "name": "exactly 4 scenes",
+      "pass": true
+    },
+    {
+      "name": "positions 1-4 in order",
+      "pass": true
+    },
+    {
+      "name": "every sentence used exactly once",
+      "pass": true
+    }
+  ],
+  "output": {
+    "title": "Kwento ng Pag-ibig ni Lolo",
+    "scenes": [
+      {
+        "position": 1,
+        "sentence_start": 1,
+        "sentence_end": 2,
+        "text": "Noong bata pa ako, nakatira kami sa Lipa, Batangas. Tuwing Linggo, nagtitinda ako ng sampaguita sa harap ng simbahan.",
+        "visual": "A child standing in front of a church in Lipa, holding a basket of white sampaguita flowers."
+      },
+      {
+        "position": 2,
+        "sentence_start": 3,
+        "sentence_end": 8,
+        "text": "Isang umaga, may binatang lumapit sa akin at sinabi, “Ako si Ben.” Bumili siya ng isang kwintas ng sampaguita. Bumalik siya tuwing Linggo at lagi niyang dala ang maraming sampaguita.",
+        "visual": "Ben holding a sampaguita necklace, standing near the church steps with many sampaguita flowers around him."
+      },
+      {
+        "position": 3,
+        "sentence_start": 9,
+        "sentence_end": 12,
+        "text": "Isang gabi, dumating si Ben sa bahay namin dala ang gitara. Kinantahan niya ako ng harana sa ilalim ng bintana. Nahiya ako pero sobrang saya ko.",
+        "visual": "Ben playing a guitar under a window at night while the narrator peeks shyly from behind the curtains, smiling."
+      },
+      {
+        "position": 4,
+        "sentence_start": 13,
+        "sentence_end": 15,
+        "text": "Pagkatapos ng dalawang taon, ikinasal kami sa parehong simbahan. Tuwing anibersaryo, binibigyan pa rin ako ni Lolo Ben ng sampaguita. At iyan ang kwento kung paano ako nagmahal.",
+        "visual": "A wedding scene at the same church, followed by an older couple holding sampaguita flowers on their anniversary."
+      }
+    ]
+  },
+  "raw": "{\"title\":\"Kwento ng Pag-ibig ni Lolo\",\"scenes\":[{\"position\":1,\"sentence_start\":1,\"sentence_end\":2,\"text\":\"Noong bata pa ako, nakatira kami sa Lipa, Batangas. Tuwing Linggo, nagtitinda ako ng sampaguita sa harap ng simbahan.\",\"visual\":\"A child standing in front of a church in Lipa, holding a basket of white sampaguita flowers.\"},{\"position\":2,\"sentence_start\":3,\"sentence_end\":8,\"text\":\"Isang umaga, may binatang lumapit sa akin at sinabi, “Ako si Ben.” Bumili siya ng isang kwintas ng sampaguita. Bumalik siya tuwing Linggo at lagi niyang dala ang maraming sampaguita.\",\"visual\":\"Ben holding a sampaguita necklace, standing near the church steps with many sampaguita flowers around him.\"},{\"position\":3,\"sentence_start\":9,\"sentence_end\":12,\"text\":\"Isang gabi, dumating si Ben sa bahay namin dala ang gitara. Kinantahan niya ako ng harana sa ilalim ng bintana. Nahiya ako pero sobrang saya ko.\",\"visual\":\"Ben playing a guitar under a window at night while the narrator peeks shyly from behind the curtains, smiling.\"},{\"position\":4,\"sentence_start\":13,\"sentence_end\":15,\"text\":\"Pagkatapos ng dalawang taon, ikinasal kami sa parehong simbahan. Tuwing anibersaryo, binibigyan pa rin ako ni Lolo Ben ng sampaguita. At iyan ang kwento kung paano ako nagmahal.\",\"visual\":\"A wedding scene at the same church, followed by an older couple holding sampaguita flowers on their anniversary.\"}]}"
+}

@@ -1,0 +1,100 @@
+{
+  "story": "crush",
+  "source": "crush.whisper-large-v3-turbo",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "v3",
+  "run": 4,
+  "ms": 20737,
+  "usage": {
+    "queue_time": 0.307470396,
+    "prompt_tokens": 745,
+    "prompt_time": 0.013178413,
+    "completion_tokens": 1852,
+    "completion_time": 5.684066228,
+    "total_tokens": 2597,
+    "total_time": 5.697244641,
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 1486
+    }
+  },
+  "sentences": [
+    "Noong bata pa ako, nakatira kami sa Lipa, Batangas.",
+    "Every Sunday, nagtitinda ako ng Sampagita.",
+    "Sarap ng simbahan.",
+    "Isang umaga, may binatang lumapit sa arlo.",
+    "His name was Ben.",
+    "Bumili siya ng isang kwintas ng Sampagita.",
+    "Tapos bumalik siya the next Sunday.",
+    "At the next Sunday ulit, sabi ko sa sarili ko, Ang dami naman niyang sampagita.",
+    "Isang gabi, dumating si Ben sa bahay namin.",
+    "May dala siyang gitara.",
+    "Tinantahan niya ako ng harana sa ilalim ng bintana.",
+    "Nahiya ako noon pero I was so happy.",
+    "And after two years, ikinasal na kami sa parehong simbahan.",
+    "Hanggang ngayon, every anniversary, binibigyan pa rin ako ni Lolo Ben ng sampagita.",
+    "and that apple and that apple is how we fell in love"
+  ],
+  "checks": [
+    {
+      "name": "valid JSON",
+      "pass": true
+    },
+    {
+      "name": "exactly 4 scenes",
+      "pass": true
+    },
+    {
+      "name": "positions 1-4 in order",
+      "pass": true
+    },
+    {
+      "name": "every sentence used exactly once",
+      "pass": true
+    }
+  ],
+  "output": {
+    "title": "Grandparent's Story",
+    "scenes": [
+      {
+        "position": 1,
+        "sentence_start": 1,
+        "sentence_end": 3,
+        "text": "Noong bata pa ako, nakatira kami sa Lipa, Batangas. Every Sunday, nagtitinda ako ng Sampagita. Sarap ng simbahan.",
+        "visual": "A child’s home in Lipa, Batangas with a church and a market stall selling Sampagita flowers.",
+        "audio_start": 1.36,
+        "audio_end": 12.08
+      },
+      {
+        "position": 2,
+        "sentence_start": 4,
+        "sentence_end": 8,
+        "text": "Isang umaga, may binatang lumapit. His name was Ben. Bumili siya ng isang kwintas ng Sampagita. Tapos bumalik siya the next Sunday. At the next Sunday ulit, sabi ko sa sarili ko, Ang dami naman niyang sampagita.",
+        "visual": "A young boy named Ben approaches, buys a Sampagita necklace, and returns the following Sunday.",
+        "audio_start": 12.86,
+        "audio_end": 32.16
+      },
+      {
+        "position": 3,
+        "sentence_start": 9,
+        "sentence_end": 12,
+        "text": "Isang gabi, dumating si Ben sa bahay namin. May dala siyang gitara. Tinantahan niya ako ng harana sa ilalim ng bintana. Nahiya ako noon pero I was so happy.",
+        "visual": "Ben arrives at night with a guitar and serenades the narrator under the window.",
+        "audio_start": 33.02,
+        "audio_end": 48.04
+      },
+      {
+        "position": 4,
+        "sentence_start": 13,
+        "sentence_end": 15,
+        "text": "And after two years, ikinasal na kami sa parehong simbahan. Hanggang ngayon, every anniversary, binibigyan pa rin ako ni Lolo Ben ng sampagita. and that apple is how we fell in love.",
+        "visual": "The couple gets married in the same church and continues to receive Sampagita flowers on each anniversary.",
+        "audio_start": 49.12,
+        "audio_end": 64.58
+      }
+    ]
+  },
+  "raw": "{\"title\":\"Grandparent's Story\",\"scenes\":[{\"position\":1,\"sentence_start\":1,\"sentence_end\":3,\"text\":\"Noong bata pa ako, nakatira kami sa Lipa, Batangas. Every Sunday, nagtitinda ako ng Sampagita. Sarap ng simbahan.\",\"visual\":\"A child’s home in Lipa, Batangas with a church and a market stall selling Sampagita flowers.\"},{\"position\":2,\"sentence_start\":4,\"sentence_end\":8,\"text\":\"Isang umaga, may binatang lumapit. His name was Ben. Bumili siya ng isang kwintas ng Sampagita. Tapos bumalik siya the next Sunday. At the next Sunday ulit, sabi ko sa sarili ko, Ang dami naman niyang sampagita.\",\"visual\":\"A young boy named Ben approaches, buys a Sampagita necklace, and returns the following Sunday.\"},{\"position\":3,\"sentence_start\":9,\"sentence_end\":12,\"text\":\"Isang gabi, dumating si Ben sa bahay namin. May dala siyang gitara. Tinantahan niya ako ng harana sa ilalim ng bintana. Nahiya ako noon pero I was so happy.\",\"visual\":\"Ben arrives at night with a guitar and serenades the narrator under the window.\"},{\"position\":4,\"sentence_start\":13,\"sentence_end\":15,\"text\":\"And after two years, ikinasal na kami sa parehong simbahan. Hanggang ngayon, every anniversary, binibigyan pa rin ako ni Lolo Ben ng sampagita. and that apple is how we fell in love.\",\"visual\":\"The couple gets married in the same church and continues to receive Sampagita flowers on each anniversary.\"}]}"
+}

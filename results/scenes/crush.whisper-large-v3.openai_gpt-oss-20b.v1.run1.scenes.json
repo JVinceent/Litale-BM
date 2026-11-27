@@ -1,0 +1,83 @@
+{
+  "story": "crush",
+  "source": "crush.whisper-large-v3",
+  "model": "openai/gpt-oss-20b",
+  "prompt": "v1",
+  "run": 1,
+  "ms": 2652,
+  "usage": {
+    "queue_time": 0.286722597,
+    "prompt_tokens": 595,
+    "prompt_time": 0.032714729,
+    "completion_tokens": 2048,
+    "completion_time": 2.173553497,
+    "total_tokens": 2643,
+    "total_time": 2.206268226,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1726
+    }
+  },
+  "sentences": [
+    "Noong bata pa ako, nakatira kami sa Lipa, Batangas.",
+    "Every Sunday, nagtitinda ako ng sampagita sa arap ng simbahan.",
+    "Isang umaga, may binatang lumapit sa akin.",
+    "His name was Ben.",
+    "Bumili siya ng isang kwintas ng sampagita.",
+    "Tapos bumalik siya the next Sunday.",
+    "At the next Sunday ulit, sabi ko sa sarili ko,",
+    "Ang dami naman niyang sampagita",
+    "Isang gabi, dumating si Ben sa bahay namin",
+    "May dala siyang gitara",
+    "Tinantahan niya ako ng harana sa ilalim ng bintana",
+    "Nahiya ako noon pero I was so happy",
+    "And after two years, ikinasal na kami sa parehong simbahan",
+    "Hanggang ngayon, every anniversary, binibigyan pa rin ako ni Lolo Ben ng sampagita",
+    "And that, apo.",
+    "And that, apo, is how we fell in love."
+  ],
+  "checks": [
+    {
+      "name": "valid JSON",
+      "pass": true
+    },
+    {
+      "name": "exactly 4 scenes",
+      "pass": false
+    },
+    {
+      "name": "positions 1-4 in order",
+      "pass": false
+    },
+    {
+      "name": "every sentence used exactly once",
+      "pass": false
+    }
+  ],
+  "output": {
+    "title": "Ang Kwento ng Lolo Ben",
+    "scenes": [
+      {
+        "position": 1,
+        "sentence_start": 1,
+        "sentence_end": 3,
+        "text": "Noong bata pa ako, nakatira kami sa Lipa, Batangas. Every Sunday, nagtitinda ako ng sampagita sa arap ng simbahan. Isang umaga, may binatang lumapit sa akin.",
+        "visual": "A child selling sampagita in front of a church in Lipa, Batangas."
+      },
+      {
+        "position": 2,
+        "sentence_start": 4,
+        "sentence_end": 6,
+        "text": "His name was Ben. Bumili siya ng isang kwintas ng sampagita. Tapos bumalik siya the next Sunday.",
+        "visual": "Ben buying a sampagita necklace from the child."
+      },
+      {
+        "position": 3,
+        "sentence_start": 7,
+        "sentence_end": 13,
+        "text": "Sabi ko sa sarili ko na marami na siyang sampagita. Isang gabi, dumating si Ben sa bahay namin, may gitara, at tinantahan ako ng harana sa ilalim ng bintana, na nagpasaya sa akin kahit nahiyang. After two years, ikinasal na kami sa parehong simbahan.",
+        "visual": "Ben playing guitar and serenading the child under a window."
+      }
+    ]
+  },
+  "raw": "{\"title\":\"Ang Kwento ng Lolo Ben\",\"scenes\":[{\"position\":1,\"sentence_start\":1,\"sentence_end\":3,\"text\":\"Noong bata pa ako, nakatira kami sa Lipa, Batangas. Every Sunday, nagtitinda ako ng sampagita sa arap ng simbahan. Isang umaga, may binatang lumapit sa akin.\",\"visual\":\"A child selling sampagita in front of a church in Lipa, Batangas.\"},{\"position\":2,\"sentence_start\":4,\"sentence_end\":6,\"text\":\"His name was Ben. Bumili siya ng isang kwintas ng sampagita. Tapos bumalik siya the next Sunday.\",\"visual\":\"Ben buying a sampagita necklace from the child.\"},{\"position\":3,\"sentence_start\":7,\"sentence_end\":13,\"text\":\"Sabi ko sa sarili ko na marami na siyang sampagita. Isang gabi, dumating si Ben sa bahay namin, may gitara, at tinantahan ako ng harana sa ilalim ng bintana, na nagpasaya sa akin kahit nahiyang. After two years, ikinasal na kami sa parehong simbahan.\",\"visual\":\"Ben playing guitar and serenading the child under a window.\"}]}"
+}

@@ -1,0 +1,98 @@
+{
+  "story": "crush",
+  "source": "crush.whisper-large-v3",
+  "model": "openai/gpt-oss-120b",
+  "prompt": "v4",
+  "run": 3,
+  "ms": 6583,
+  "usage": {
+    "queue_time": 0.173171319,
+    "prompt_tokens": 909,
+    "prompt_time": 0.11082567,
+    "completion_tokens": 2868,
+    "completion_time": 6.002283323,
+    "total_tokens": 3777,
+    "total_time": 6.113108993,
+    "completion_tokens_details": {
+      "reasoning_tokens": 2425
+    }
+  },
+  "sentences": [
+    "Noong bata pa ako, nakatira kami sa Lipa, Batangas.",
+    "Every Sunday, nagtitinda ako ng sampagita sa arap ng simbahan.",
+    "Isang umaga, may binatang lumapit sa akin.",
+    "His name was Ben.",
+    "Bumili siya ng isang kwintas ng sampagita.",
+    "Tapos bumalik siya the next Sunday.",
+    "At the next Sunday ulit, sabi ko sa sarili ko,",
+    "Ang dami naman niyang sampagita",
+    "Isang gabi, dumating si Ben sa bahay namin",
+    "May dala siyang gitara",
+    "Tinantahan niya ako ng harana sa ilalim ng bintana",
+    "Nahiya ako noon pero I was so happy",
+    "And after two years, ikinasal na kami sa parehong simbahan",
+    "Hanggang ngayon, every anniversary, binibigyan pa rin ako ni Lolo Ben ng sampagita",
+    "And that, apo.",
+    "And that, apo, is how we fell in love."
+  ],
+  "checks": [
+    {
+      "name": "valid JSON",
+      "pass": true
+    },
+    {
+      "name": "exactly 4 scenes",
+      "pass": true
+    },
+    {
+      "name": "positions 1-4 in order",
+      "pass": true
+    },
+    {
+      "name": "every sentence used exactly once",
+      "pass": true
+    }
+  ],
+  "output": {
+    "title": "Grandparent's Love Story",
+    "scenes": [
+      {
+        "position": 1,
+        "sentence_start": 1,
+        "sentence_end": 2,
+        "text": "Noong bata pa ako, nakatira kami sa Lipa, Batangas. Every Sunday, nagtitinda ako ng sampagita sa harap ng simbahan.",
+        "visual": "A woman with dark hair wearing a simple dress stands in front of a small church in Lipa, Batangas, holding a basket of white sampagita flowers.",
+        "audio_start": 1.3,
+        "audio_end": 11.58
+      },
+      {
+        "position": 2,
+        "sentence_start": 3,
+        "sentence_end": 6,
+        "text": "Isang umaga, may binatang lumapit sa akin. His name was Ben. Bumili siya ng isang kwintas ng sampagita. Tapos bumalik siya the next Sunday.",
+        "visual": "A man with short hair wearing a plain shirt hands a garland of sampagita to the woman with dark hair wearing a simple dress as they stand near the church steps.",
+        "audio_start": 12.96,
+        "audio_end": 25.74
+      },
+      {
+        "position": 3,
+        "sentence_start": 7,
+        "sentence_end": 12,
+        "text": "At the next Sunday ulit, sabi ko sa sarili ko. Ang dami naman niyang sampagita. Isang gabi, dumating si Ben sa bahay namin. May dala siyang gitara. Tinantahan niya ako ng harana sa ilalim ng bintana. Nahiya ako noon pero I was so happy.",
+        "visual": "Under a moonlit night, the man with short hair wearing a plain shirt sits on a wooden step with a guitar, serenading the woman with dark hair wearing a simple dress who peeks shyly from the window.",
+        "audio_start": 26.8,
+        "audio_end": 48
+      },
+      {
+        "position": 4,
+        "sentence_start": 13,
+        "sentence_end": 16,
+        "text": "And after two years, ikinasal na kami sa parehong simbahan. Hanggang ngayon, every anniversary, binibigyan pa rin ako ni Lolo Ben ng sampagita. And that, apo. And that, apo, is how we fell in love.",
+        "visual": "Inside the same church, the woman with dark hair wearing a simple dress and the man with short hair wearing a plain shirt exchange vows, while white sampagita bouquets are placed on the altar.",
+        "audio_start": 49.04,
+        "audio_end": 64.6
+      }
+    ]
+  },
+  "raw": "{\"title\":\"Grandparent's Love Story\",\"scenes\":[{\"position\":1,\"sentence_start\":1,\"sentence_end\":2,\"text\":\"Noong bata pa ako, nakatira kami sa Lipa, Batangas. Every Sunday, nagtitinda ako ng sampagita sa harap ng simbahan.\",\"visual\":\"A woman with dark hair wearing a simple dress stands in front of a small church in Lipa, Batangas, holding a basket of white sampagita flowers.\"},{\"position\":2,\"sentence_start\":3,\"sentence_end\":6,\"text\":\"Isang umaga, may binatang lumapit sa akin. His name was Ben. Bumili siya ng isang kwintas ng sampagita. Tapos bumalik siya the next Sunday.\",\"visual\":\"A man with short hair wearing a plain shirt hands a garland of sampagita to the woman with dark hair wearing a simple dress as they stand near the church steps.\"},{\"position\":3,\"sentence_start\":7,\"sentence_end\":12,\"text\":\"At the next Sunday ulit, sabi ko sa sarili ko. Ang dami naman niyang sampagita. Isang gabi, dumating si Ben sa bahay namin. May dala siyang gitara. Tinantahan niya ako ng harana sa ilalim ng bintana. Nahiya ako noon pero I was so happy.\",\"visual\":\"Under a moonlit night, the man with short hair wearing a plain shirt sits on a wooden step with a guitar, serenading the woman with dark hair wearing a simple dress who peeks shyly from the window.\"},{\"position\":4,\"sentence_start\":13,\"sentence_end\":16,\"text\":\"And after two years, ikinasal na kami sa parehong simbahan. Hanggang ngayon, every anniversary, binibigyan pa rin ako ni Lolo Ben ng sampagita. And that, apo. And that, apo, is how we fell in love.\",\"visual\":\"Inside the same church, the woman with dark hair wearing a simple dress and the man with short hair wearing a plain shirt exchange vows, while white sampagita bouquets are placed on the altar.\"}]}"
+}

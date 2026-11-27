@@ -57,12 +57,14 @@ ${wrong.length ? ['| Model wrote | Correct | Times |', '| --- | --- | --- |', ..
 </details>`);
 }
 
-// Task 2: scene division. Model/run are stored inside each file.
-for (const f of files.filter(f => f.endsWith('.scenes.json'))) {
-  const { story, model, run, source, checks } = JSON.parse(await read(`${RESULTS}/${f}`));
+// Task 2: scene division. Model/run are stored inside each file. Boundary/term scores: compare.mjs.
+const SCENES = `${RESULTS}/scenes`;
+const sceneFiles = existsSync(SCENES) ? (await readdir(SCENES)).filter(f => f.endsWith('.scenes.json')).sort() : [];
+for (const f of sceneFiles.filter(f => !only || f.split('.')[0] === only)) {
+  const { story, model, run, source, prompt, checks } = JSON.parse(await read(`${SCENES}/${f}`));
   const failed = checks.filter(c => !c.pass).map(c => `FAIL: ${c.name}`);
   const passed = `${checks.length - failed.length}/${checks.length}`;
-  get(story).scenes.push([model, passed, [`run ${run}`, `from ${source}`, ...failed].join(', ')]);
+  get(story).scenes.push([model, passed, [`run ${run}`, `prompt ${prompt}`, `from ${source}`, ...failed].join(', ')]);
 }
 
 // One file per story.
